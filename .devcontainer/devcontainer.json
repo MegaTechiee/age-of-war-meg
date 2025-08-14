@@ -1,0 +1,22 @@
+{
+  "name": "age-of-war",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/home/app",
+  // "shutdownAction": "stopCompose",
+  "shutdownAction": "none",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
+
